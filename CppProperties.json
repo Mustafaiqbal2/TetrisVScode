@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x86"
+      ],
+      "name": "mingw64",
+      "includePath": [
+        "${workspaceRoot}\\..\\..\\..\\..\\..\\..\\SFML-2.5.1\\include",
+        "C:\\Users\\musta\\vcpkg\\packages\\sfml_x86-windows\\include",
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ],
+      "intelliSenseMode": "windows-msvc-x86"
+    }
+  ]
+}
